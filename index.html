@@ -97,6 +97,19 @@
 
   .page.active { display: block; }
 
+  #page-about.active {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: unset;
+    overflow: hidden;
+  }
+
+  #page-about .hero {
+    flex: 1;
+    min-height: 0;
+  }
+
   /* HERO / ABOUT */
   .hero {
     display: grid;
